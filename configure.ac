@@ -39,7 +39,7 @@ LT_INIT
 
 # Checks for libraries.
 PKG_CHECK_MODULES(libplist, libplist-2.0 >= $LIBPLIST_VERSION)
-PKG_CHECK_MODULES(limd_glue, libimobiledevice-glue-1.0.0 >= $LIMD_GLUE_VERSION)
+PKG_CHECK_MODULES(limd_glue, libimobiledevice-glue-1.0 >= $LIMD_GLUE_VERSION)
 AC_CHECK_HEADERS([sys/inotify.h], have_inotify=yes, have_inotify=no)
 
 AC_ARG_WITH([inotify],
